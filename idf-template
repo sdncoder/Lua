@@ -1,0 +1,8 @@
+hostname lua-idf1
+username admin privledge 15 password root
+!
+!
+interface Ethernet 1/1
+ description Ethernet interface
+!
+
