@@ -22,3 +22,4 @@ subnet_to_cidr = function( subnet )
   if not dword then return nil, err end
   return "/" .. tostring(32 - (math.tointeger(math.log((dword ~ 0xFFFFFFFF) + 1, 2))))
 end
+
