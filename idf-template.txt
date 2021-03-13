@@ -1,0 +1,5 @@
+hostname
+username test password 0 test
+line vty 0 4
+ input ssh
+

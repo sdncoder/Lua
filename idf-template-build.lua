@@ -4,13 +4,13 @@
 --
 local counter = 1 -- set table to first index for load of configlets
 build = {} -- create table  -- setup table "build"
-configlets = {'base-system.txt', 'base-security.txt'} -- 2 configlets
+configlets = {'base-system.txt', 'base-security.txt', 'base-interfaces.txt'} -- 3 configlets
 --
 
 
 -- load config sections from array configlets{}
 -- y max is the number of .txt called
-for y = 1, 2 do
+for y = 1, 3 do
 io.input(configlets[y]) -- read external file
 
 -- functions

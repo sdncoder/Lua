@@ -1,0 +1,4 @@
+interface GigbitEthernet 1/0
+ ip address ..X..
+!
+
